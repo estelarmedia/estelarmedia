@@ -456,6 +456,58 @@ dd {
   height: 100%;
 }
 
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 60%; 
+    height: auto; } 
+
+.embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
+
+.embed-container2 { 
+    position: relative; 
+    padding-bottom: 2%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+    height: auto; 
+} 
+
+.embed-container2 iframe, .embed-container2 object, .embed-container2 embed { 
+    position:relative; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
+.embed-container3 { 
+    position: relative; 
+    padding-bottom: 2%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+    height: auto; 
+} 
+
+.embed-container3 iframe, .embed-container2 object, .embed-container2 embed { 
+    position:relative; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
+
 /* ------------------------------------------------------------------- 
  * ## floated image
  * ------------------------------------------------------------------- */
@@ -1698,8 +1750,8 @@ input::-moz-focus-inner {
 }
 
 .header-logo img {
-  width: 140px;
-  height: 16px;
+  width: 180px;
+  height: 19px;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2031,7 +2083,7 @@ input::-moz-focus-inner {
   width: 100%;
   height: 100vh;
   min-height: 786px;
-  background-image: url(../images/pattern.jpg);
+  background-image: url(../images/pattern_estelar.jpg);
   background-size: 760px 380px;
   position: relative;
   overflow: hidden;
@@ -2133,6 +2185,11 @@ input::-moz-focus-inner {
   padding-bottom: 8.8rem;
 }
 
+.player_on {
+  position: relative;
+  vertical-align: middle;
+}
+
 /* ------------------------------------------------------------------- 
  * ## home button section
  * ------------------------------------------------------------------- */
@@ -2142,6 +2199,28 @@ input::-moz-focus-inner {
 
 .home-content__button .btn {
   width: 30rem;
+  font-size: 1.5rem;
+  height: 6.4rem !important;
+  line-height: 6rem !important;
+  margin-right: 0;
+  border-radius: 5px;
+}
+
+/* ------------------------------------------------------------------- 
+ * ## Projs button section + texto do contato no meio 
+ * ------------------------------------------------------------------- */
+
+.contacto-center {
+    align-content: center;
+    text-align: left;
+}
+
+.projs-content__button {
+  margin-top: 8.8rem;
+}
+
+projs-content__button {
+  width: 60rem;
   font-size: 1.5rem;
   height: 6.4rem !important;
   line-height: 6rem !important;
@@ -2648,7 +2727,7 @@ html.no-csstransitions .home-content__main {
 .s-about {
   padding-top: 20rem;
   padding-bottom: 0;
-  background-color: #00a650;
+  background-color: #121619;
   color: rgba(255, 255, 255, 0.8);
   overflow: hidden;
   position: relative;
@@ -2941,7 +3020,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .testimonials-wrap {
-  margin-top: 9.6rem;
+  margin-top: 2rem;
 }
 
 .testimonials-header {
@@ -2967,22 +3046,22 @@ html.no-csstransitions .home-content__main {
 .testimonials {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: normal;
-  font-size: 1.7rem;
-  line-height: 1.882;
-  margin-top: 4rem;
-  padding-bottom: 7.2rem;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
   position: relative;
 }
 
 .testimonials__slide {
   position: relative;
-  padding-left: 9.6rem;
+  padding-left: 3rem;
   padding-right: 3rem;
 }
 
 .testimonials__avatar {
-  width: 7.2rem;
-  height: 7.2rem;
+  width: 10rem;
+  height: 10rem;
   border-radius: 100%;
   outline: none;
   position: absolute;
@@ -3024,7 +3103,7 @@ html.no-csstransitions .home-content__main {
 
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:700px) {
   .testimonials {
     text-align: center;
   }
@@ -3040,7 +3119,7 @@ html.no-csstransitions .home-content__main {
 
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:700px) {
   .testimonials {
     margin-top: 3.2rem;
   }
@@ -3208,7 +3287,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-download {
   padding-top: 12rem;
-  background-color: #00a650;
+  background-color: #121619;
   color: rgba(255, 255, 255, 0.8);
   overflow: hidden;
   position: relative;
@@ -3482,7 +3561,7 @@ html.no-csstransitions .home-content__main {
 
 .footer__logo img {
   width: 135px;
-  height: 15px;
+  height: 68px;
 }
 
 /* ------------------------------------------------------------------- 
